@@ -1,3 +1,8 @@
+# Obsolete!
+
+This project is obsolete. Use official image instead and add your scripts to `/docker-entrypoint-initdb.d` dir. To run commands, such as `pg_basebackup` before initializing database, add your custom entrypoint and exec `/docker-entrypoint.sh` at the end.
+
+
 # postgres
 
 This postgres image extends [official postgres image](https://hub.docker.com/_/postgres/) by adding more configuration options.
